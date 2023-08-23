@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black url(imagens/fundo-madeira.jpg) center center no-repeat fixed ;
+    background-size: cover
+}
+nav{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
+    padding: auto;
+   
+}    
+nav ul li{
+    padding: 10px;
+    list-style: none;
+    width: 50px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    flex-direction: row;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+.logos{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: black 1px 1px 5px;
+}
+.logos:hover{
+    transition: 1s;
+    cursor: pointer;
+}
