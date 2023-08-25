@@ -44,7 +44,7 @@ section#redes{
     width: 50px;
 }
 #redes a img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.521);
+    border: 2px solid #ffffff85;
     transform: translate(-5%, -5%);
     box-shadow: black 5px 5px 10px;
     transition: transform 0.3s;
