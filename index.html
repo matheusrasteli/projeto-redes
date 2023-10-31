@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas Redes</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <link rel="stylesheet" href="style001.css">
 <body>
+    <menu>
+        <span id="lista" class="material-icons" onclick="clickMenu()">
+            menu
+            </span>
+    </menu>
     <main>   
         <section id="telefone">
            <iframe src="paghome.html" name="tela" id="tela"></iframe>
         </section>
+
        <section id="redes">
             <a href="paghome.html" target="tela"><img src="imagens/logo-home.jpg" class="logos" alt=""></a>
 
@@ -28,5 +35,13 @@
         
     
     </main>
+    <script>
+        function clickMenu(){
+            if(redes.style.display == 'block')
+                redes.style.display = 'none'
+                else(redes.style.display = 'block')
+        }
+        
+    </script>
 </body>
 </html>
